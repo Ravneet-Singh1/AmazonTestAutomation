@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-19T21:25:17 IST" name="Suite" finished-at="2023-03-19T21:26:49 IST" duration-ms="92314">
+    <groups>
+    </groups>
+    <test started-at="2023-03-19T21:25:17 IST" name="Test" finished-at="2023-03-19T21:26:49 IST" duration-ms="92314">
+      <class name="testCases.AmazonHomePage">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testCases.AmazonHomePage@74e28667]" started-at="2023-03-19T21:25:17 IST" name="launchApplication" finished-at="2023-03-19T21:25:29 IST" duration-ms="12908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginInTest()[pri:0, instance:testCases.AmazonHomePage@74e28667]" started-at="2023-03-19T21:25:30 IST" name="loginInTest" description="Amazon login functioanlity" finished-at="2023-03-19T21:25:36 IST" duration-ms="6807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInTest -->
+        <test-method signature="Searchproduct()[pri:0, instance:testCases.AmazonHomePage@74e28667]" started-at="2023-03-19T21:25:36 IST" name="Searchproduct" description="Searching for a product" finished-at="2023-03-19T21:25:41 IST" depends-on-methods="testCases.AmazonHomePage.loginInTest" duration-ms="4051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchproduct -->
+        <test-method signature="filterSearchResult()[pri:0, instance:testCases.AmazonHomePage@74e28667]" started-at="2023-03-19T21:25:41 IST" name="filterSearchResult" description="Filtering the search results" finished-at="2023-03-19T21:25:50 IST" depends-on-methods="testCases.AmazonHomePage.Searchproduct" duration-ms="9897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterSearchResult -->
+        <test-method signature="addProductTocart()[pri:0, instance:testCases.AmazonHomePage@74e28667]" started-at="2023-03-19T21:25:50 IST" name="addProductTocart" description="Adding a product to the shopping cart" finished-at="2023-03-19T21:26:14 IST" depends-on-methods="testCases.AmazonHomePage.filterSearchResult" duration-ms="23310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductTocart -->
+        <test-method signature="cartProducts()[pri:0, instance:testCases.AmazonHomePage@74e28667]" started-at="2023-03-19T21:26:14 IST" name="cartProducts" description="Adding a product to the shopping cart &amp; Proceeding to checkout" finished-at="2023-03-19T21:26:15 IST" depends-on-methods="testCases.AmazonHomePage.addProductTocart" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartProducts -->
+        <test-method signature="addAddress()[pri:0, instance:testCases.AmazonHomePage@74e28667]" started-at="2023-03-19T21:26:15 IST" name="addAddress" description="Filling out the checkout form:" finished-at="2023-03-19T21:26:22 IST" depends-on-methods="testCases.AmazonHomePage.cartProducts" duration-ms="6933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method signature="paymentOption()[pri:0, instance:testCases.AmazonHomePage@74e28667]" started-at="2023-03-19T21:26:22 IST" name="paymentOption" description="Select Payment method" finished-at="2023-03-19T21:26:29 IST" depends-on-methods="testCases.AmazonHomePage.addAddress" duration-ms="6612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentOption -->
+        <test-method signature="placeOrder()[pri:0, instance:testCases.AmazonHomePage@74e28667]" started-at="2023-03-19T21:26:29 IST" name="placeOrder" description="Submit Order" finished-at="2023-03-19T21:26:33 IST" depends-on-methods="testCases.AmazonHomePage.paymentOption" duration-ms="4441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.AmazonHomePage@74e28667]" started-at="2023-03-19T21:26:33 IST" name="TearDown" finished-at="2023-03-19T21:26:49 IST" duration-ms="15884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testCases.AmazonHomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

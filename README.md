@@ -1,6 +1,7 @@
 # AmazonTestAutomation
 Amazon Web Page E2E Automation
-
+NOTE: Enter Correct Email id and Password in data.properties before running the test suite, for dummy purpose I have given 'dummyEmail@gmail.com' & 'dummyPassword'
+amazon\src\test\java\testCases\data.properties
 
 => Search for a product:
 --------------------------
@@ -9,8 +10,8 @@ Steps:
 
 1. Go to the Amazon website (https://www.amazon.in/)
 2. On the home page click sign and login using your email id and password.
-3. After login is sucessfull, in the search bar, enter the name or keyword of the product you want to search for (e.g., "Boat Headphones")
-4. Press the "Enter" key or click the magnifying glass icon to initiate the search.
+4. After login is sucessfull, in the search bar, enter the name or keyword of the product you want to search for (e.g., "Boat Headphones")
+5. Press the "Enter" key or click the magnifying glass icon to initiate the search.
 
 Expected Results:
 
